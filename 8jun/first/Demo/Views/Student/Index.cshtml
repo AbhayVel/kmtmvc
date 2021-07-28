@@ -1,0 +1,138 @@
+﻿@using KMISMModels
+@using KMISMEntities;
+@model IEnumerable<KMISMEntities.Student>
+
+@{
+    ViewBag.Title = "Index";
+    StudentSearchModel search = ViewBag.search as StudentSearchModel;
+    Pagination pagination = search.Pagination;
+    LoginUser loginUser = User.Identity as LoginUser;
+}
+
+<h2>Index</h2>
+
+
+<div class="page-heading">
+    <section class="section">
+        <div class="card">
+            <div class="card-header">
+                Student    List
+            </div>
+            <p>
+                @Html.ActionLink("Create New", "Create")
+            </p>
+
+            @Html.Partial("search", search, null)
+
+            @Html.ActionLink("Add", "Add")
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>
+
+
+                            @Html.ActionLink(Html.DisplayNameFor(model => model.Id).ToString(), "", new { ColumnName = "Id", OrderBy = search.OrderBy }, new { onclick = "sortData(\'Id\',\'" + @search.OrderBy + "\' )" })
+
+                        </th>
+                        <th>
+
+
+                            @Html.ActionLink(Html.DisplayNameFor(model => model.FirstName).ToString(), "", new { ColumnName = "FirstName", OrderBy = search.OrderBy }, new { onclick = "sortData(\'FirstName\',\'" + @search.OrderBy + "\' )" })
+
+                        </th>
+                        <th>
+
+
+                            @Html.ActionLink(Html.DisplayNameFor(model => model.LastName).ToString(), "", new { ColumnName = "LastName", OrderBy = search.OrderBy }, new { onclick = "sortData(\'LastName\',\'" + @search.OrderBy + "\' )" })
+
+                        </th>
+
+                        <th>
+
+
+                            @Html.ActionLink(Html.DisplayNameFor(model => model.Age).ToString(), "", new { ColumnName = "Age", OrderBy = search.OrderBy }, new { onclick = "sortData(\'Age\',\'" + @search.OrderBy + "\' )" })
+
+                        </th>
+
+                        <th>
+
+
+                            @Html.ActionLink(Html.DisplayNameFor(model => model.SubjectID).ToString(), "", new { ColumnName = "Age", OrderBy = search.OrderBy }, new { onclick = "sortData(\'[Subject.name]\',\'" + @search.OrderBy + "\' )" })
+
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.ActionLink(item.Id.ToString(), "Edit", new { id = item.Id })
+
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FirstName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LastName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Age)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Subject.Name)
+                            </td>
+                            <td>
+
+                                @if (User.IsInRole("Admin,Sales"))
+                                {
+                                    @Html.ActionLink("Edit", "Edit", new { id = item.Id });
+                                    <span>| </span>
+                                }
+
+                                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    @Html.ActionLink("Delete", "Delete", new { id = item.Id });
+                                }
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#" onclick="pagination(@pagination.CurrentPage -1)">Previous</a></li>
+                    @for (var i = 1; i <= pagination.Pages; i = i + 1)
+                    {
+                        if (pagination.CurrentPage == i)
+                        {
+                            <li class="page-item active">
+                                <a class="page-link" href="#" onclick="pagination(@i)">@i</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="page-item">
+                                <a class="page-link" href="#" onclick="pagination(@i)">@i</a>
+                            </li>
+                        }
+
+
+
+
+
+                    }
+
+
+                    <li class="page-item"><a class="page-link" href="#" onclick="pagination(@pagination.CurrentPage -1)">Next</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </section>
+</div>

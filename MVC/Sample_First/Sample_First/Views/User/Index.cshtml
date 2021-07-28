@@ -1,0 +1,79 @@
+﻿@model IEnumerable<CheckDatabaseFromEF.User>
+
+@{
+    ViewBag.Title = "Index";
+
+    //Layout = null;
+}
+
+<h2>Index</h2>
+
+
+<div>@Session["UserName"]</div>
+@Html.ActionLink("Go to dept", "Index", new
+{
+    controller="Home",
+    area="department"
+
+} )
+
+<p>
+    @Html.ActionLink("Add", "Add")
+</p>
+
+@{ 
+    PageData["num"] = 2;
+}
+
+@Html.Action("Search")
+
+
+
+<div id="divUser">
+
+
+
+@Html.Partial("SearchListAjax", Model)
+
+
+</div>
+
+
+
+
+<script>
+
+    function setSort(columnName) {
+      
+        document.getElementById("OrderByColumnName").value = columnName;
+        var orderBy = document.getElementById("OrderBy").value;
+
+        if (orderBy == 'asc') {
+            document.getElementById("OrderBy").value = 'desc';
+        } else {
+            document.getElementById("OrderBy").value = 'asc';
+        }
+
+        $("#frm").submit();
+    }
+
+    function searchClick() {
+        debugger;
+        var elepageNumber = document.getElementById("pageNumber");
+        elepageNumber.value = 1;
+    }
+
+    function ChangePage(num) {
+        //var ele = document.getElementById("textPage");
+
+        var elepageNumber = document.getElementById("pageNumber");
+        elepageNumber.value = num;
+        debugger;
+        document.getElementById("btnSearchHidden").click();
+    }
+
+
+    function success() {
+        debugger;
+    }
+</script>

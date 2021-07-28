@@ -1,0 +1,28 @@
+﻿
+<html>
+<head>
+    <title></title>
+    <script></script>
+</head>
+<body>
+    <p><h2>Index</h2></p>
+    <table>
+        @for (int i = 0; i <= 5; i++)
+        {
+
+            if (i == 2)
+            {
+                <tr>
+                    <td  class="@(i==0?"a1":"a2" )" >@i</td>
+                </tr>
+            }
+
+            <tr>
+                <td>@(i+1)</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
+
+

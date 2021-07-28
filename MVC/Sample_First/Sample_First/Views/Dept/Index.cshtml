@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@*@using (Html.BeginForm("changeDet", "Dept", FormMethod.Post, new { @id = "frm" }))*@
+@using (Ajax.BeginForm("changeDet", "Dept", new AjaxOptions { HttpMethod= "post", UpdateTargetId="updateDiv" }, new { @id = "frm" }))
+{
+    @Html.DropDownList("DeptList", null, new { @onchange = "change()" })
+
+<div id="updateDiv">
+   @Html.Partial("ChangeDet")
+</div>
+   
+
+}
+
+
+<script>
+
+    function change() {
+        $("#frm").submit();
+    }
+</script>

@@ -1,0 +1,19 @@
+2021-07-13 08:44:30.6779|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 6034.2557
+2021-07-13 08:49:21.2369|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1742.9249
+2021-07-13 09:09:39.4372|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 5840.6784
+2021-07-13 09:10:12.6320|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 18041.224
+2021-07-13 09:10:58.7474|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 13763.5057
+2021-07-13 09:11:04.4400|INFO|Demo.filters.QDNREsultFilter| In Result  controller: Student - Action : Index - TimeTaken : 2101.9132
+2021-07-13 09:11:37.9954|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 8593.7399
+2021-07-13 09:11:37.9954|INFO|Demo.filters.QDNREsultFilter| In Result  controller: Student - Action : Index - TimeTaken : 0
+2021-07-13 09:12:14.7246|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 5781.2981
+2021-07-13 09:12:14.7246|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 9503.6375
+2021-07-13 09:12:16.2858|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1560.0917
+2021-07-13 09:14:41.3833|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1049.4586
+2021-07-13 09:14:41.3833|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 90577.2893
+2021-07-13 09:14:41.3934|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 10.0624
+2021-07-13 09:15:54.2423|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 2739.5824
+2021-07-13 09:15:54.2948|INFO|Demo.filters.QDNREsultFilter| In Result  controller: Student - Action : Index - TimeTaken : 24.0274
+2021-07-13 09:16:11.8258|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 3613.8249
+2021-07-13 09:16:11.8258|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 7806.7778
+2021-07-13 09:16:13.1198|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1292.9951

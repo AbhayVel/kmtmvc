@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    @Styles.Render("~/layout/css")
+   
+    @Styles.Render("~/vendors/css")
+    @Styles.Render("~/app/css")
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+</head>
+<body>
+
+    @Html.Partial("_Slidebar")
+    <div id="app">
+
+        <div id="main">
+            @Html.Partial("_Header")
+
+
+            @RenderBody()
+            @Html.Partial("_Footer")
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/vender/js")
+    @Scripts.Render("~/bootstrap/js")
+    @Scripts.Render("~/datatables/js")
+    @Scripts.Render("~/app/js")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    <script>
+        function sortData(columnName, orderBy) {
+            event.preventDefault();
+
+            debugger;
+            var eleC = document.getElementById("ColumnName");
+            eleC.value = columnName;
+
+            var eleO = document.getElementById("OrderBy");
+
+            if (orderBy == 'asc') {
+                orderBy = 'desc';
+            } else {
+                orderBy = 'asc'
+            }
+            eleO.value = orderBy;
+
+
+
+            $("#frmId").submit();
+
+            return false;
+        }
+
+
+     function   pagination(num){
+
+         debugger;
+         event.preventDefault();
+
+        var elePageNo = document.getElementById("CurrentPage");
+         elePageNo.value = num;
+
+           
+
+
+         $("#frmId").submit();
+
+         return false;
+        }
+
+    </script>
+
+
+    <style>
+        .col-md-3 {
+            display: inline-block;
+        }
+    </style>
+
+
+</body>
+</html>

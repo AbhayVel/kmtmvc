@@ -1,0 +1,74 @@
+2021-07-14 08:16:02.6041|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 6485.873
+2021-07-14 08:16:02.6782|INFO|Demo.filters.QDNREsultFilter| In Result  controller: Student - Action : Index - TimeTaken : 47.1695
+2021-07-14 08:19:41.6596|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 3035.5033
+2021-07-14 08:19:41.7086|INFO|Demo.filters.QDNREsultFilter| In Result  controller: Student - Action : Index - TimeTaken : 22.0328
+2021-07-14 08:19:55.2419|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1961.6568
+2021-07-14 08:19:55.2419|INFO|Demo.filters.QDNREsultFilter| In Result  controller: Student - Action : Index - TimeTaken : 0
+2021-07-14 08:26:01.4283|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 3318.3917
+2021-07-14 08:26:01.4703|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 4958.6879
+2021-07-14 08:37:44.0553|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 3636.7233
+2021-07-14 08:37:44.0873|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 4465.0921
+2021-07-14 08:37:46.9763|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1636.4849
+2021-07-14 08:49:46.8168|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 3007.0147
+2021-07-14 08:49:46.8448|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 5978.7064
+2021-07-14 08:49:48.0408|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1194.9953
+2021-07-14 08:58:56.2931|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 42384.4986
+2021-07-14 08:58:56.3191|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 46342.9277
+2021-07-14 09:00:12.7818|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 4160.1656
+2021-07-14 09:00:12.8117|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 4191.1648
+2021-07-14 09:00:13.7517|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 936.9555
+2021-07-14 09:00:20.2152|ERROR|Demo.filters.QDNExceptionFIlter|controller: Student - Action : Index - Message : D:\kmi\8jun\first\Demo\Views\Student\Index.cshtml(58): error CS1061: 'Student' does not contain a definition for 'LoginUserID' and no accessible extension method 'LoginUserID' accepting a first argument of type 'Student' could be found (are you missing a using directive or an assembly reference?) - StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-14 09:00:22.2026|ERROR|Demo.Controllers.Base|controller: Student - Action : Index - Message : D:\kmi\8jun\first\Demo\Views\Student\Index.cshtml(58): error CS1061: 'Student' does not contain a definition for 'LoginUserID' and no accessible extension method 'LoginUserID' accepting a first argument of type 'Student' could be found (are you missing a using directive or an assembly reference?) - StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-14 09:01:46.2609|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 47522.1626
+2021-07-14 09:03:46.8995|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 12102.9098
+2021-07-14 09:03:46.9305|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 12133.9129
+2021-07-14 09:03:49.6510|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 2717.4761
+2021-07-14 09:04:57.1858|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1828.1424
+2021-07-14 09:04:57.2208|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1863.1064
+2021-07-14 09:05:00.8849|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3661.0754
+2021-07-14 09:05:03.8894|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Edit - TimeTaken : 430.5365
+2021-07-14 09:05:05.1154|INFO|Demo.filters.QDNREsultFilter| In Result   view: Edit  controller: Student - Action : Edit - TimeTaken : 1224.9612
+2021-07-14 09:05:10.6234|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 29.9972
+2021-07-14 09:05:10.6234|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.0391
+2021-07-14 09:20:33.0287|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 65524.3824
+2021-07-14 09:20:33.1590|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 94.8804
+2021-07-14 09:20:34.4580|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1298.0044
+2021-07-14 09:31:33.1843|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 11486.4748
+2021-07-14 09:31:33.3458|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 117.0003
+2021-07-14 09:31:34.7355|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1387.6377

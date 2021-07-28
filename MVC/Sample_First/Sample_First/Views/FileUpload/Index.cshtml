@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@if (ViewBag.message != null)
+{
+    <b>@ViewBag.message </b>
+}
+
+@using (Html.BeginForm("Save", "FileUpload", FormMethod.Post))
+{
+
+    <input type="file" name="fileUpload" id="file" accept=".xls,.jpg,.png" />
+
+    <input type="submit" value="Upload" formenctype="multipart/form-data" />
+}
+
+
+<a href="~/files/school.jpg">Download</a>
+
+
+@Html.ActionLink("Download File", "DownLoad", "FileUpload")

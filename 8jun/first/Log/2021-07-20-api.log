@@ -1,0 +1,16 @@
+2021-07-20 08:23:40.8836|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 1899.3084
+2021-07-20 08:23:43.3516|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 98.5904
+2021-07-20 08:23:44.7011|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1347.4588
+2021-07-20 08:35:30.5207|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1677.3716
+2021-07-20 08:35:30.5437|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1701.3687
+2021-07-20 08:35:31.5721|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1027.461
+2021-07-20 08:37:27.9978|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1961.6201
+2021-07-20 08:37:28.0228|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1987.5851
+2021-07-20 08:37:31.1918|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3167.0028
+2021-07-20 08:37:39.5915|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Edit - TimeTaken : 260.054
+2021-07-20 08:37:40.1515|INFO|Demo.filters.QDNREsultFilter| In Result   view: Edit  controller: Student - Action : Edit - TimeTaken : 559.942
+2021-07-20 08:37:43.4756|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Edit - TimeTaken : 5.0084
+2021-07-20 08:37:43.4756|INFO|Demo.filters.QDNREsultFilter| In Result   view: Edit  controller: Student - Action : Edit - TimeTaken : 3.9897
+2021-07-20 08:38:42.0414|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1985.0688
+2021-07-20 08:38:42.0684|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 2012.0719
+2021-07-20 08:38:45.3459|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3275.5197

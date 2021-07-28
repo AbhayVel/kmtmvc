@@ -1,0 +1,99 @@
+﻿@model IEnumerable<CheckDatabaseFromEF.User>
+
+@{
+   
+   // Layout = null;
+}
+
+
+
+<table class="table">
+    <tr>
+        <th  onclick="setSort('firstName')">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th onclick="setSort('lastName')">
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th onclick="setSort('age')">
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th onclick="setSort('d.Name')">
+            @Html.DisplayNameFor(model => model.Dept_Id)
+        </th>
+        <th onclick="setSort('gender')">
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+
+                @Html.DisplayFor(modelItem => item.Department.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+
+                @if (User.IsInRole("Admin,Dept"))
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+                }
+
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                }
+
+
+            </td>
+        </tr>
+    }
+
+</table>
+@if (ViewBag.count != null)
+{
+    int rowOnPageCount = 2;
+    int pages = ViewBag.count / rowOnPageCount;
+
+    if (ViewBag.count % rowOnPageCount != 0)
+    {
+        pages = pages + 1;
+    }
+    <ul style="display:inline-block">
+        @for (int i = 1; i <= pages; i++)
+        {
+
+            if (ViewBag.currentPage == i)
+            {
+                <li style="        background-color: blue;
+        color: white;
+        display: inline-block;width: 40px;
+" onclick="ChangePage(@i)">@i</li>
+}
+else
+{
+<li style="        display: inline;
+        width: 40px;
+" onclick="ChangePage(@i)">@i</li>
+}
+}
+
+
+
+    </ul>
+
+}

@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Ajax.BeginForm("getUser", "Home", new AjaxOptions { HttpMethod="Post", UpdateTargetId= "userdiv" } , new { @Id = "frmx" }))
+{
+    @Html.DropDownList("DeptList", null, new { @onchange = "GetUserJFun()" })
+
+     
+
+}
+<div id="userdiv">
+    @if (ViewBag.userList != null)
+    {
+
+        @Html.DropDownList("userList")
+
+
+    }
+</div>
+<script>
+
+    function GetUserJFun() {
+        debugger;
+        $("#frmx").submit();
+    }
+</script>

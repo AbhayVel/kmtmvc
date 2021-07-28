@@ -1,0 +1,65 @@
+﻿@model KmiEntities.UserSearch
+
+@{
+    ViewBag.Title = "Search";
+}
+
+
+
+
+@*@using (Html.BeginForm("SearchListAjax", "User", FormMethod.Post))*@
+@using (Ajax.BeginForm("SearchListAjax", "User", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "divUser"  , OnFailure="fail" }, htmlAttributes: new { @id = "frm" }))
+
+
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal empty-class">
+        <h4>UserSearch</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.FirstNameSearch, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FirstNameSearch, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FirstNameSearch, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.LastNameSearch, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LastNameSearch, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LastNameSearch, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.AgeFromSearch, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AgeFromSearch, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.AgeFromSearch, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.AgeToSearch, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AgeToSearch, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.AgeToSearch, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @Html.EditorFor(model => model.PageNumber, new { htmlAttributes = new { @type = "hidden", @id = "pageNumber" } })
+        @Html.EditorFor(model => model.OrderByColumnName, new { htmlAttributes = new { @type = "hidden", @id = "OrderByColumnName" } })
+        @Html.EditorFor(model => model.OrderBy, new { htmlAttributes = new { @type = "hidden", @id = "OrderBy" } })
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" id="btnSearchHidden" class="btn btn-default hidden" style="display:none" />
+                <input type="submit" value="Search" id="btnSearch" onclick="searchClick()" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+

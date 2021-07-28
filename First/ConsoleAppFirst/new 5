@@ -1,0 +1,31 @@
+
+
+Var ouputObj=Action();
+
+if(ouputObj as ActionResult){
+ouputObj.ExeuteResult()
+
+} else {
+
+Response.write(ouputObj.Tostring())
+}
+Response.End()
+
+
+ public override void ExecuteResult(ControllerContext context)        
+        {
+            if (this.ViewPath == null)
+            {
+                var controllerName = context.RouteData.Values["controller"];
+                var actionName = context.RouteData.Values["action"];
+                this.ViewPath = @"D:\kmi\MVC\Sample_First\Sample_First\myView\" + controllerName + @"\" + actionName + ".html";
+
+            }
+
+            var output = this.ToString();
+
+            context.HttpContext.Response.ClearContent();
+            context.HttpContext.Response.Write(output);
+         //   context.HttpContext.Response.End();
+
+        }

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CheckDatabaseFromEF.User>
+
+@{
+    ViewBag.Title = "Index";
+
+    //Layout = null;
+}
+
+<h2>Index</h2>
+
+@Html.ActionLink("Go to dept", "Index", new
+{
+    controller="Home",
+    area="department"
+
+} )
+
+<p>
+    @Html.ActionLink("Add", "Create")
+</p>
+
+@Html.Action("Search")
+
+
+
+<div id="divUser">
+    @Html.Partial("SearchListAjax", Model)
+
+</div>
+
+
+
+
+<script>
+
+    function searchClick() {
+        debugger;
+        var elepageNumber = document.getElementById("pageNumber");
+        elepageNumber.value = 1;
+    }
+
+    function ChangePage(num) {
+        //var ele = document.getElementById("textPage");
+
+        var elepageNumber = document.getElementById("pageNumber");
+        elepageNumber.value = num;
+        debugger;
+        document.getElementById("btnSearchHidden").click();
+    }
+
+</script>

@@ -1,0 +1,80 @@
+2021-07-15 08:26:18.3822|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 17347.5973
+2021-07-15 08:31:23.0403|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 12156.5032
+2021-07-15 08:32:25.7995|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 86.7814
+2021-07-15 08:32:27.2545|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1453.9999
+2021-07-15 08:37:02.0986|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 4650.0179
+2021-07-15 08:37:23.5190|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 82.9992
+2021-07-15 08:37:24.6020|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1080.9974
+2021-07-15 08:39:07.7563|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 3959.5055
+2021-07-15 08:39:10.3195|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 86.8054
+2021-07-15 08:39:10.5035|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 182.9999
+2021-07-15 08:39:37.5734|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 2.9985
+2021-07-15 08:39:37.5794|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.0016
+2021-07-15 08:46:20.3552|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1579.9709
+2021-07-15 08:46:20.3812|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1606.9727
+2021-07-15 08:46:23.2559|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 2872.689
+2021-07-15 08:47:33.0678|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1718.0203
+2021-07-15 08:47:33.0978|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1749.0209
+2021-07-15 08:47:36.1289|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3028.1134
+2021-07-15 08:48:15.1129|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 19914.5632
+2021-07-15 08:48:16.9871|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 7.0031
+2021-07-15 08:48:16.9871|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 4.0394
+2021-07-15 08:58:40.2380|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 14.9919
+2021-07-15 08:59:06.6947|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 26455.5961
+2021-07-15 08:59:06.7114|ERROR|Demo.filters.QDNExceptionFIlter|controller: Student - Action : Index - Message : Object reference not set to an instance of an object. - StackTrace :    at ASP._Page_Views_Student_Index_cshtml.Execute() in D:\kmi\8jun\first\Demo\Views\Student\Index.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.RunPage()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-15 08:59:06.7114|ERROR|Demo.Controllers.Base|controller: Student - Action : Index - Message : Object reference not set to an instance of an object. - StackTrace :    at ASP._Page_Views_Student_Index_cshtml.Execute() in D:\kmi\8jun\first\Demo\Views\Student\Index.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.RunPage()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-15 09:06:24.9816|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1383.8168
+2021-07-15 09:06:37.9050|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 12895.3583
+2021-07-15 09:07:15.0659|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 8.9982
+2021-07-15 09:07:49.0444|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 33978.5553
+2021-07-15 09:08:08.1875|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 18.9945
+2021-07-15 09:08:15.9126|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 7724.1217
+2021-07-15 09:08:44.4805|INFO|Demo.Controllers.Base|controller: Login - Action : Login - TimeTaken : 5462.0267
+2021-07-15 09:08:45.8676|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 7.9993
+2021-07-15 09:08:45.8726|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3.9966
+2021-07-15 09:09:28.5991|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 6.999
+2021-07-15 09:09:28.5991|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.0419
+2021-07-15 09:18:14.0742|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1765.0065
+2021-07-15 09:18:14.1021|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 1793.0056
+2021-07-15 09:18:40.3382|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 26233.0601
+2021-07-15 09:19:19.4324|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Edit - TimeTaken : 269.9955
+2021-07-15 09:19:20.0107|INFO|Demo.filters.QDNREsultFilter| In Result   view: Edit  controller: Student - Action : Edit - TimeTaken : 577.24
+2021-07-15 09:19:50.5326|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 13.9556
+2021-07-15 09:19:50.5326|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 6.0019
+2021-07-15 09:19:58.9804|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Edit - TimeTaken : 6.007
+2021-07-15 09:19:58.9804|INFO|Demo.filters.QDNREsultFilter| In Result   view: Edit  controller: Student - Action : Edit - TimeTaken : 7.0551
+2021-07-15 09:22:55.3388|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 2106.9969
+2021-07-15 09:22:55.3798|INFO|Demo.Controllers.Base|controller: Student - Action : Index - TimeTaken : 2149.998
+2021-07-15 09:22:59.0098|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3626.071
