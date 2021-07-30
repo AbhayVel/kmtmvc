@@ -50,7 +50,6 @@ namespace Demo.Controllers
                return Redirect("/student/index");
             }
             setSubject(student);
-            logger.Debug("Save End  " + DateTime.Now.ToString());
             return View("Edit" ,student);
         }
 

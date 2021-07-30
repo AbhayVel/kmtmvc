@@ -1,0 +1,100 @@
+2021-07-29 08:46:35.7945|ERROR|Demo.filters.QDNExceptionFIlter|controller: Login - Action : Index - Message : D:\kmi\8jun\first\Demo\Views\Login\Index.cshtml(40): error CS1002: ; expected - StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-29 08:46:35.8215|ERROR|Demo.Controllers.Base|controller: Login - Action : Index - Message : D:\kmi\8jun\first\Demo\Views\Login\Index.cshtml(40): error CS1002: ; expected - StackTrace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-29 08:46:42.2973|ERROR|Demo.filters.QDNExceptionFIlter|controller: Login - Action : Index - Message : D:\kmi\8jun\first\Demo\Views\Login\Index.cshtml(40): error CS1002: ; expected - StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-29 08:46:42.2973|ERROR|Demo.Controllers.Base|controller: Login - Action : Index - Message : D:\kmi\8jun\first\Demo\Views\Login\Index.cshtml(40): error CS1002: ; expected - StackTrace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__4()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__1(IAsyncResult asyncResult)
+2021-07-29 08:47:54.6842|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 133.0563
+2021-07-29 08:47:56.0737|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 1389.5189
+2021-07-29 08:58:48.1283|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 1357.373
+2021-07-29 08:58:48.4773|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 328.9918
+2021-07-29 08:58:56.8265|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 4.9992
+2021-07-29 08:58:56.8265|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 4.0021
+2021-07-29 08:58:59.3106|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 4.9986
+2021-07-29 08:58:59.3156|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 4.9977
+2021-07-29 08:59:00.4558|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 4.0024
+2021-07-29 08:59:00.4558|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.9889
+2021-07-29 08:59:01.3046|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 3.949
+2021-07-29 08:59:01.3046|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 4.0633
+2021-07-29 08:59:01.9172|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 2.9992
+2021-07-29 08:59:01.9222|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 4.0421
+2021-07-29 08:59:02.3172|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 2.9922
+2021-07-29 08:59:02.3172|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 4.0481
+2021-07-29 08:59:02.6002|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 4.9994
+2021-07-29 08:59:02.6002|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 6.049
+2021-07-29 08:59:02.8237|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 3.0423
+2021-07-29 08:59:02.8307|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.9861
+2021-07-29 08:59:10.4152|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 10.226
+2021-07-29 08:59:10.4252|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 8.9546
+2021-07-29 08:59:14.3005|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 10.1109
+2021-07-29 08:59:14.3005|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 7.9563
+2021-07-29 08:59:16.1458|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 6.0015
+2021-07-29 08:59:16.1458|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 7.0372
+2021-07-29 08:59:20.0654|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 7.6576
+2021-07-29 08:59:20.0654|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.0131
+2021-07-29 08:59:23.6477|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 4.9987
+2021-07-29 08:59:23.6477|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 3.0389
+2021-07-29 08:59:27.3819|INFO|Demo.filters.QDNActionFilterAttribute|controller: Student - Action : Index - TimeTaken : 16.0093
+2021-07-29 08:59:27.3819|INFO|Demo.filters.QDNREsultFilter| In Result   view: Index  controller: Student - Action : Index - TimeTaken : 5.0338

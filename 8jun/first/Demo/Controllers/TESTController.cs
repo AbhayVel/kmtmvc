@@ -11,7 +11,10 @@ namespace Demo.Controllers
         // GET: TEST
         public ActionResult Index()
         {
-            return View();
+
+            Response.Write("");
+            Response.End();
+            return Content("aa");
         }
 
         // GET: TEST/Details/5

@@ -155,6 +155,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
     <Compile Include="App_Start\UnityMvcActivator.cs" />
+    <Compile Include="Areas\Department\Controllers\DepartmentController.cs" />
+    <Compile Include="Areas\Department\DepartmentAreaRegistration.cs" />
     <Compile Include="Controllers\AuthenticateController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ExceptionController.cs" />
@@ -1891,6 +1893,10 @@
     <Content Include="CodeTemplates\MvcView\search.cs.t4" />
     <Content Include="CodeTemplates\MvcView\List.cs - Copy.t4" />
     <Content Include="NLOG.config" />
+    <Content Include="Areas\Department\Views\web.config" />
+    <Content Include="Areas\Department\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Department\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Department\Views\Department\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -1941,6 +1947,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Department\Data\" />
     <Folder Include="Views\Authenticate\" />
     <Folder Include="Views\TEST\" />
   </ItemGroup>
