@@ -35,6 +35,7 @@
     @Scripts.Render("~/datatables/js")
     @Scripts.Render("~/app/js")
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/ajax")
 
 
     <script>
@@ -64,8 +65,13 @@
 
      function   pagination(num){
 
-         debugger;
+         
          event.preventDefault();
+
+
+         if (num === 0 || num === -1) {
+             return;
+         }
 
         var elePageNo = document.getElementById("CurrentPage");
          elePageNo.value = num;

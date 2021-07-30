@@ -5,73 +5,81 @@
 }
 
 <h2>search</h2>
-
-@using (Html.BeginForm("Index", "student",FormMethod.Post,  new { @id="frmId"}))
+@*@using (Html.BeginForm("Index", "student", FormMethod.Post, new { @id = "frmId" }))*@
+@using (Ajax.BeginForm("Index", "student",new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "divTable" , OnSuccess="successAjax(event)" }, new { @id = "frmId" }))
 {
     @Html.AntiForgeryToken()
-    
-<div class="form-horizontal empty-class">
-    <h4>StudentSearchModel</h4>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-    @Html.HiddenFor(model => model.ColumnName, htmlAttributes: new { @id = "ColumnName" })
 
-    @Html.HiddenFor(model => model.OrderBy, htmlAttributes: new { @id = "OrderBy" })
+    <div class="form-horizontal empty-class">
+        <h4>StudentSearchModel</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ColumnName, htmlAttributes: new { @id = "ColumnName" })
 
-    @Html.HiddenFor(model => model.Pagination.CurrentPage, htmlAttributes: new { @id = "CurrentPage" })
+        @Html.HiddenFor(model => model.OrderBy, htmlAttributes: new { @id = "OrderBy" })
 
-    @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.Pagination.CurrentPage, htmlAttributes: new { @id = "CurrentPage" })
 
-    <div class="form-group empty">
-        @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-3">
-            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+            </div>
+
+            @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </div>
         </div>
 
-        @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-3">
-            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.Doj, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.EditorFor(model => model.Doj, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Doj, "", new { @class = "text-danger" })
+            </div>
+
+            @Html.LabelFor(model => model.Age, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group empty">
+            @Html.LabelFor(model => model.AgeGte, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.EditorFor(model => model.AgeGte, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.AgeGte, "", new { @class = "text-danger" })
+            </div>
+
+            @Html.LabelFor(model => model.AgeLte, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-3">
+                @Html.EditorFor(model => model.AgeLte, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.AgeLte, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-3">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
         </div>
     </div>
-
-    <div class="form-group empty">
-        @Html.LabelFor(model => model.Doj, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-3">
-            @Html.EditorFor(model => model.Doj, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.Doj, "", new { @class = "text-danger" })
-        </div>
-
-        @Html.LabelFor(model => model.Age, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-3">
-            @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
-        </div>
-    </div>
-
-    <div class="form-group empty">
-        @Html.LabelFor(model => model.AgeGte, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-3">
-            @Html.EditorFor(model => model.AgeGte, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.AgeGte, "", new { @class = "text-danger" })
-        </div>
-
-        @Html.LabelFor(model => model.AgeLte, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-3">
-            @Html.EditorFor(model => model.AgeLte, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.AgeLte, "", new { @class = "text-danger" })
-        </div>
-    </div>
-
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-3">
-            <input type="submit" value="Save" class="btn btn-default" />
-        </div>
-    </div>
-</div>
 }
 
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+
+
+<script>
+
+    function successAjax() {
+        debugger;
+    }
+</script>

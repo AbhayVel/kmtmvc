@@ -14,8 +14,8 @@ namespace Demo.Controllers
 {
 
     [QdnAuthenticationFilter]
-    [QDNREsultFilter]
-    [QDNActionFilterAttribute]
+   // [QDNREsultFilter]
+  //  [QDNActionFilterAttribute]
     public class StudentController : AuthenticateController
     {
         public StudentService StudentService { get; set; }
@@ -36,7 +36,13 @@ namespace Demo.Controllers
                 //var k = 1 / i;
                 List<Student> lstStudent = StudentService.GetStudents(studentSearch);
                 ViewBag.search = studentSearch;
-                return View(lstStudent);         
+
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("Table",lstStudent);
+            }
+            return View(lstStudent);
+
         }
 
 

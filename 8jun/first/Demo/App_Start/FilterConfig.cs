@@ -8,7 +8,7 @@ namespace Demo
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-           filters.Add(new QDNExceptionFIlter());
+        //   filters.Add(new QDNExceptionFIlter());
            // filters.Add(new QDNREsultFilter());
         }
     }
