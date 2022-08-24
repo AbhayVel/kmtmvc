@@ -11,7 +11,7 @@ namespace Razor
     {
         static void Main(string[] args)
         {
-            var path = @"D:\kmi\Aniket\MVCRazerEngin\MVCRazerEngin\MVCRazerEngin\Views\Home\Home";
+            var path = @"D:\abhay\Kmi89\kmtmvc\Aniket\MVCRazerEngin\MVCRazerEngin\MVCRazerEngin\Views\Home\Home";
           //  CustomRazor.GeneratedCSfile();
 
             string writeData = CustomRazor.GeneratedCSfile(path + ".cshtml");
