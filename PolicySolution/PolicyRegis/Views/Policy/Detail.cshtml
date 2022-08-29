@@ -1,0 +1,161 @@
+﻿
+<!-- header -->
+
+<br>
+
+<table style="width:100% ;box-shadow: 0 10px 10px #bababa;height: 40px ; border: 0%;padding: 1px; ">
+  <tr  >
+    
+    <h1 style="text-align:center">Policy Details</h1>
+    
+  </tr>
+  </table>
+  <br><div style="box-shadow: 0 10px 10px #bababa;">
+  <div class="w3-container w3-white" style=>
+    <h2>Policy requirements</h2>
+</div>
+    <div style="float:right;" id="Current_date" class="ABC"> 
+      <br>
+      <div style="box-shadow: 0 3px 5px #bababa;">
+    <script >
+        document.getElementById("Current_date").innerHTML=Date();
+    </script>
+    </div>
+  </div>
+  <div class="cB"></div>
+  <div style="box-shadow: 0 3px 5px #bababa;
+
+  "> 
+    <table style="width:100%" >
+        <tr>
+          <td> <input type="text" id="fname1" name="name1"maxlength="20" placeholder="Policy id"size="27"><br><br></td>
+          <td> <input type="text" id="fname2" name="name2"maxlength="20"placeholder="First Name " size="27"><br><br></td>
+          <td> <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" style="border-style:none" type="button" data-toggle="dropdown">Select Gender
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Male</a></li>
+              <li><a href="#">Female</a></li>
+              <li><a href="#">Other</a></li>
+              <li class="divider"></li>
+              <li><a href="#">About Us</a></li>
+            </ul><hr>
+          </div></th>
+        </tr>
+        <tr>
+          <td> <input type="text" id="fname4" placeholder="Address"name="name4"maxlength="20" size="30"><br><br></td>
+          <td> <input type="text" id="fname5" placeholder="Phone Number"name="name5"maxlength="20" size="30"><br><br></td>
+          <td> <input type="text" id="fname6" placeholder="Email-Id"name="name6"maxlength="20" size="30"><br><br></td>
+        </tr>
+
+       
+    </table>
+  </div>
+</div>
+  
+ <div style="box-shadow: 0 10px 10px #bababa; ">
+  <br><br>
+    <button class="collapsible" style="box-shadow: 1 5px 10px black; ">
+      <h3> Vehicle Policy Details</h3>
+        <div> <table class="w3-table" Height="10px">
+          </table></div>
+    </button>
+
+    <div class="content" style="box-shadow: 10px 10px black;">
+        <div class="scrollmenu">
+            <table style="width:100%" >
+                <tr>
+                  <td> <input type="text" id="fname1" name="name1"maxlength="20" placeholder="Policy Number"size="27"><br><br></td>
+                  <td> <input type="text" id="fname2" name="name2"maxlength="20"placeholder="Policy Effective date" size="27"><br><br></td>
+                  <td> <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" style="border-style:none" type="button" data-toggle="dropdown">Vehicle type
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Car</a></li>
+                      <li><a href="#">Bike</a></li>
+                      <li><a href="#">Rickshaw</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">About Us</a></li>
+                    </ul><hr>
+                  </div></th>
+                </tr>
+                <tr>
+                  <td> <input type="text" id="fname4" placeholder="Address"name="name4"maxlength="20" size="30"><br><br></td>
+                  <td> <input type="text" id="fname5" placeholder="Phone Number"name="name5"maxlength="20" size="30"><br><br></td>
+                  <td> <input type="text" id="fname6" placeholder="Email-Id"name="name6"maxlength="20" size="30"><br><br></td>
+                </tr>
+        
+               
+            </table>
+           
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+        </div>
+    </div></div>
+   <br><br>
+   <div>
+    <button class="collapsible1"><h3>Vehicle Driver Details</h3>
+        <div> <table class="w3-table" Height="10px">
+            
+          </table></div>
+    </button>
+
+    <div class="content" style="box-shadow: 10px 10px black;">
+        <div class="scrollmenu">
+            <table style="width:100%" >
+                <tr></tr>
+                  <td> <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" style="border-style:none" type="button" data-toggle="dropdown">Vehicle Status
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Active</a></li>
+                      <li><a href="#">InActive</a></li>
+                     
+                    </ul><hr>
+                  </div></th>
+                </tr>
+                <tr>
+                  <td> <input type="text" id="fname4" placeholder="Vehicle_ID"name="name4"maxlength="20" size="30"><br><br></td>
+                  <td> <input type="text" id="fname5" placeholder="Driver_ID"name="name5"maxlength="20" size="30"><br><br></td>
+                  <td> <input type="text" id="fname6" placeholder="Email-Id"name="name6"maxlength="20" size="30"><br><br></td>
+                </tr>
+        
+               
+            </table>
+           
+            <script>
+        var coll = document.getElementsByClassName("collapsible1");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+        
+    </div>
+
+    </div>
+
+   

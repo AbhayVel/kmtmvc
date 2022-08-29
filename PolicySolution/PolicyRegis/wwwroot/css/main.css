@@ -1,0 +1,118 @@
+﻿table, th, td {
+	border: 0px black;
+}
+
+.collapsible {
+	background-color: lightslategray;
+	color: white;
+	cursor: pointer;
+	padding: 1px;
+	width: 100%;
+	border-style: solid;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.collapsible1 {
+	background-color: lightslategray;
+	color: white;
+	cursor: pointer;
+	padding: 1px;
+	width: 100%;
+	border-style: solid;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.collapsible2 {
+	background-color: lightblue;
+	color: black;
+	cursor: pointer;
+	padding: 1px;
+	width: 100%;
+	border-style: solid;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+
+.active, .collapsible:hover {
+	background-color: #555;
+}
+
+.active, .collapsible1:hover {
+	background-color: #555;
+}
+
+.active, .collapsible2:hover {
+	background-color: #555;
+}
+
+.collapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	border-style: solid;
+	margin-left: 5px;
+	margin-top: -50px;
+}
+
+.collapsible1:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	border-style: solid;
+	float: top;
+	float: right;
+	margin-left: 5px;
+	margin-top: -50px;
+}
+
+.collapsible2:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	border-style: solid;
+	margin-left: 5px;
+	margin-top: -50px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+}
+
+.ABC {
+	margin-left: 80%;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1240px;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	width: 1240px;
+	padding-bottom: 2%;
+}
+
+.pT20 {
+	padding-top: 20px;
+}
+
+.cB {
+	clear: both;
+}
