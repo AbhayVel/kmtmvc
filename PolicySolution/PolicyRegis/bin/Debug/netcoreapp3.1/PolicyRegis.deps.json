@@ -32,6 +32,12 @@
       "PolicyRegis/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.28",
+          "PolicyContex": "1.0.0",
+          "PolicyEntities": "1.0.0",
+          "PolicyModels": "1.0.0",
+          "PolicyRepository": "1.0.0",
+          "PolicyService": "1.0.0",
+          "PolicyUtility": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -544,6 +550,57 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.3": {},
+      "PolicyContex/1.0.0": {
+        "runtime": {
+          "PolicyContex.dll": {}
+        },
+        "compile": {
+          "PolicyContex.dll": {}
+        }
+      },
+      "PolicyEntities/1.0.0": {
+        "runtime": {
+          "PolicyEntities.dll": {}
+        },
+        "compile": {
+          "PolicyEntities.dll": {}
+        }
+      },
+      "PolicyModels/1.0.0": {
+        "runtime": {
+          "PolicyModels.dll": {}
+        },
+        "compile": {
+          "PolicyModels.dll": {}
+        }
+      },
+      "PolicyRepository/1.0.0": {
+        "runtime": {
+          "PolicyRepository.dll": {}
+        },
+        "compile": {
+          "PolicyRepository.dll": {}
+        }
+      },
+      "PolicyService/1.0.0": {
+        "dependencies": {
+          "PolicyModels": "1.0.0"
+        },
+        "runtime": {
+          "PolicyService.dll": {}
+        },
+        "compile": {
+          "PolicyService.dll": {}
+        }
+      },
+      "PolicyUtility/1.0.0": {
+        "runtime": {
+          "PolicyUtility.dll": {}
+        },
+        "compile": {
+          "PolicyUtility.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2350,6 +2407,36 @@
       "sha512": "sha512-+MvhNtcvIbqmhANyKu91jQnvIRVSTiaOiFNfKWwXGHG48YAb4I/TyH8spsySiPYla7gKal5ZnF3teJqZAximyQ==",
       "path": "system.threading.tasks.extensions/4.5.3",
       "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    },
+    "PolicyContex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PolicyEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PolicyModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PolicyRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PolicyService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PolicyUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

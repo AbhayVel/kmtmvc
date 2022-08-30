@@ -14,7 +14,7 @@
     <ProjectReference Include="..\PolicyEntities\PolicyEntities.csproj" />
     <ProjectReference Include="..\PolicyModels\PolicyModels.csproj" />
     <ProjectReference Include="..\PolicyRepository\PolicyRepository.csproj" />
-    <ProjectReference Include="..\PolicySolution\PolicyService\PolicyService.csproj" />
+    <ProjectReference Include="..\PolicyService\PolicyService.csproj" />
     <ProjectReference Include="..\PolicyUtility\PolicyUtility.csproj" />
   </ItemGroup>
 
