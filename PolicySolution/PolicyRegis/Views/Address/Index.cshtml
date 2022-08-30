@@ -1,0 +1,35 @@
+﻿@model List<Address>
+@using PolicyModels;
+
+
+<table class="w3-table w3-table-all">
+    <thead>
+        <tr>
+            <th> Id</th>
+            <th> Customer Id</th>
+            <th> Customer</th>
+            <th> Address</th>
+             <th> PinCOde</th>
+              <th> STate</th>
+        </tr>
+    </thead>
+
+     <tbody>
+
+        @foreach(var item in Model){
+            <tr>
+            <td> @item.RecID</td>
+            <td>  @item.CustomerID</td>
+            <td> @item.CustomerName</td>
+            <td> @(item.Address1 +"," +item.Address2 +","+
+            item.Address3)    
+            </td>
+             <td> @item.Pincode</td>
+              <td> @item.State</td>
+              </tr>
+        }
+       
+        
+         
+    </tbody>
+</table>
