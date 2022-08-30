@@ -8,31 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ushar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+      "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
       "projectName": "PolicyService",
-      "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
+      "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+      "packagesPath": "C:\\Users\\ushar\\.nuget\\packages\\",
+      "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ushar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
   }
