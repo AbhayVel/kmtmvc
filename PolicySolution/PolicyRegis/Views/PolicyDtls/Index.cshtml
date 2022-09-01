@@ -1,0 +1,73 @@
+﻿@using PolicyModels;
+@model List<PolicyDtls>
+
+<table class="w3-table w3-table-all">
+    <thead>
+        <tr>
+
+            <th>  RecID</th>     
+            <th>  CustID</th>
+            <th>  PolicyStatus</th>
+            <th>  ProductCode </th>
+            <th> ProductType </th>
+            <th> ProductName</th>
+            <th>  PolicyTerm </th>
+            <th> StartDt </th>
+            <th> EndDt </th>
+            <th> LOB </th>
+            <th> PremiumAmt </th>
+            <th> SumInsured </th>
+            <th> AgtCode </th>
+            <th>   ModeOfPremium</th>
+            <th> PolIssuedt </th>
+            <th> CurrentStatus </th>
+            <th> AnnualPremium </th>
+            <th> LastPremiumdt</th>
+            <th> PremDueDt</th>
+            <th> PREMIUM_PAYING_TERM </th>
+            <th> Manager_Code </th>
+            <th> OFFICE_CD </th>
+            <th> CHANNEL_ID </th>
+            <th> CreatedBy </th>
+            <th>  CreatedDt </th>
+            <th> UpdatedBy</th>
+            <th>  UpdatedDt</th>
+        </tr>
+</thead>
+
+<tbody>
+
+@foreach (var item in Model)
+{
+        <tr>
+                <td> @item.RecID</td>
+                <td> @item.CustID</td>
+                <td> @item.PolicyStatus</td>
+                <td> @item.ProductCode</td>
+                <td> @item.ProductType</td>
+                <td> @item.ProductName</td>
+                <td> @item.ProductName</td>
+                <td> @item.PolicyTerm</td>
+                <td> @item.StartDt</td>
+                <td> @item.EndDt</td>
+                <td> @item.LOB</td>
+                <td> @item.PremiumAmt</td>
+                <td> @item.SumInsured</td>
+                <td> @item.AgtCode</td>
+                <td> @item.ModeOfPremium</td>
+                <td> @item.PolIssuedt</td>
+                <td> @item.CurrentStatus</td>
+                <td> @item.AnnualPremium</td>
+                <td> @item.LastPremiumdt</td>
+                <td> @item.PremDueDt</td>
+                <td> @item.PREMIUM_PAYING_TERM</td>
+                <td> @item.Manager_Code</td>
+                <td> @item.OFFICE_CD</td>
+                <td> @item.CHANNEL_ID</td>
+                <td> @item.CreatedBy</td>
+                <th>  @item.UpdatedBy</th>
+                <th>  @item.UpdatedDt</th>
+        </tr>
+}
+</tbody>
+</table>
