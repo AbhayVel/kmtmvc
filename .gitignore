@@ -1,5 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-
+*.v2
+//*.v2
+*.suo
+//*.suo
+*.futdcache.v1
+//*.futdcache.v1
 # compiled output
 /dist
 /tmp
