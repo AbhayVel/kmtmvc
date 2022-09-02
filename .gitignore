@@ -11,17 +11,13 @@
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
-*.dll
 *.pdb
 *.zip
 *.cache
 *.rar
 # dependencies
 /node_modules
-/bin 
 /debug
-//bin
-//obj
 
 # profiling files
 chrome-profiler-events*.json
@@ -59,16 +55,13 @@ testem.log
 Thumbs.db
 WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.csproj.AssemblyReference.cache
 WebCore/WebCoreRepositoryLayer/obj/Debug/netcoreapp3.1/WebCoreRepositoryLayer.csproj.AssemblyReference.cache
-*.dll
 *.pdb
 *.cache
 *.cache
 *.pdb
-*.dll
-*.dll
+
 WebCore/WebApiCore/bin/Debug/netcoreapp3.1/WebApiCore.dll
 *.txt
 WebCore/.vs/WebCore/v16/.suo
-*.dll
 *.cache
 *.cache
