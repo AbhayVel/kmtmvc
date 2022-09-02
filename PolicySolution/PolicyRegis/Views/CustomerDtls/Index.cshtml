@@ -1,0 +1,61 @@
+﻿@model List<CustomerDetails>
+@using PolicyModels;
+
+
+<table class="w3-table w3-table-all">
+    <thead>
+        <tr>
+            <th> Id</th>
+            <th> Customer ID </th>
+            <th> First Name </th>
+            <th> Middle Name</th>
+            <th> Last Name </th>
+            <th> DOB </th>
+            <th> Mobile No. </th>
+            <th> Tel No. </th>
+            <th> EmailID1 </th>
+            <th> EmailID2 </th>
+            <th> Pan Number </th>
+            <th> Mother Name </th>
+            <th> Qualification details </th>
+            <th> Marital Status </th>
+            <th> Nominee Name </th>
+            <th> Nominee Age </th>
+            <th> Nominee Cont No </th>
+            <th> Created By </th>
+            <th> Created Dt </th>
+            <th> Updated By </th>
+            <th> Updated Date </th>
+            <th> Status </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @item.RecID</td>
+                <td> @item.CustID</td>
+                <td> @item.FName</td>
+                <td> @item.Mname</td>
+                <td> @item.Lname</td>
+                <td> @item.DOB</td>
+                <td> @item.MobNo</td>
+                <td> @item.TelNo</td>
+                <td> @item.EmailId1</td>
+                <td> @item.EmailId2</td>
+                <td> @item.PanNo</td>
+                <td> @item.MotherName</td>
+                <td> @item.NomineeName</td>
+                <td> @item.NomineeAge</td>
+                <td> @item.NomineeContNo</td>
+                <td> @item.CreatedBy</td>
+                <td> @item.CreatedDt</td>
+                <td> @item.UpdatedBy</td>
+                <td> @item.UpdatedDt</td>
+                <td> @item.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
