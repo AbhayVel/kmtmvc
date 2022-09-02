@@ -9,10 +9,14 @@
           "Microsoft.CodeAnalysis.Razor": "3.1.28"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.28": {
@@ -23,10 +27,14 @@
           "Microsoft.Extensions.DependencyModel": "3.1.25"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -38,10 +46,14 @@
       "Microsoft.AspNetCore.Razor.Language/3.1.28": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/2.9.3": {
@@ -62,10 +74,14 @@
           "System.Threading.Tasks.Extensions": "4.5.3"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {}
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.resources.dll": {
@@ -115,10 +131,14 @@
           "Microsoft.CodeAnalysis.Common": "[3.3.0]"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll": {}
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
@@ -170,10 +190,14 @@
           "Microsoft.CodeAnalysis.Common": "3.3.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyModel/3.1.25": {
@@ -183,10 +207,14 @@
           "System.Text.Json": "4.7.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/2.1.2": {
@@ -201,10 +229,14 @@
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -219,19 +251,27 @@
       "System.Reflection.Metadata/1.6.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Text.Encoding.CodePages/4.5.1": {
@@ -256,19 +296,27 @@
       "System.Text.Encodings.Web/4.7.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Text.Json/4.7.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Threading.Tasks.Extensions/4.5.3": {
@@ -789,23 +837,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\deepalg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+      "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
       "projectName": "PolicyRegis",
-      "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+      "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+      "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+      "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -819,23 +868,23 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+            "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+              "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+            "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+              "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+            "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+              "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+            "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+              "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+            "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+              "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+            "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+              "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
             }
           }
         }
@@ -861,16 +910,11 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.25, 3.1.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -879,7 +923,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

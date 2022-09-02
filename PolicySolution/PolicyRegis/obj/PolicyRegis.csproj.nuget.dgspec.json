@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
   },
   "projects": {
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "projectName": "PolicyContex",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,33 +49,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "projectName": "PolicyEntities",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,33 +122,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
         "projectName": "PolicyModels",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,33 +195,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
         "projectName": "PolicyRegis",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,23 +251,23 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
               },
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
               },
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
               },
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
               },
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
               },
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
               }
             }
           }
@@ -244,16 +293,11 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.25, 3.1.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -262,24 +306,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
         "projectName": "PolicyRepository",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -310,33 +355,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
         "projectName": "PolicyService",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -350,8 +411,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-                "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
               }
             }
           }
@@ -371,7 +432,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -380,24 +442,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+    "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "projectUniqueName": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
         "projectName": "PolicyUtility",
-        "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
-        "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-        "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
+        "projectPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "packagesPath": "C:\\Users\\deepalg\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\deepalg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -428,16 +491,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
