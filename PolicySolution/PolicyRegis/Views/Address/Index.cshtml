@@ -1,13 +1,47 @@
 ﻿@model List<Address>
 @using PolicyModels;
 
+@{
+    AddressSearch addressSearch = ViewBag.addressSearch as AddressSearch;
+}
+
+<form action="/address/index" method="post">
+
+    <div>
+        <div >
+            <label for="id">
+                Id
+            </label>
+            <input type="text" name="RecIDSearch" value="@addressSearch.RecIDSearch" />
+
+        </div>
+        <div>
+            <label for="id">
+                Id
+            </label>
+            <input type="text" name="CustomerIDSearch" value="@addressSearch.CustomerIDSearch" />
+
+        </div>
+        <div>
+            <label for="id">
+                Id
+            </label>
+            <input type="text" name="CustomerNameSearch" value="@addressSearch.CustomerNameSearch" />
+
+        </div>
+
+        <button type="submit">Search</button>
+    </div>
+
+
+</form>
 
 <table class="w3-table w3-table-all">
     <thead>
         <tr>
-            <th> Id</th>
-            <th> Customer Id</th>
-            <th> Customer</th>
+            <th> <a href="/address/index?columnName=id&orderBy=@ViewData["orderBy"]">Id</a> </th>
+            <th><a href="/address/index?columnName=CustomerID&orderBy=@ViewData["orderBy"]">Customer Id</a></th>
+            <th> <a href="/address/index?columnName=CustomerName&orderBy=@ViewData["orderBy"]">Customer</a></th>
             <th> Address</th>
              <th> PinCOde</th>
               <th> STate</th>

@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\pushpendram\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\pushpendram\\.nuget\\packages"
+      "C:\\Users\\AjayV\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AjayV\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

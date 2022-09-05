@@ -1,15 +1,36 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PolicyModels;
 using PolicyService;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace PolicyRegis.Controllers
 {
 	public class AddressController : Controller
 	{
-		public IActionResult Index()
+
+		[HttpPost]
+		[HttpGet]
+		public IActionResult Index(AddressSearch addressSearch)
 		{
 			var adService = new AddressService();
-			var lst= adService.GetList();
-			return View(lst);
+			IEnumerable<Address> lst = adService.GetList();
+			lst = addressSearch.GetWhere(lst);
+			lst = addressSearch.GetOrderBy(lst);
+
+			if ("desc".Equals(addressSearch.OrderBy, StringComparison.OrdinalIgnoreCase))
+			{
+				addressSearch.OrderBy = "asc";
+			}	else
+			{
+				addressSearch.OrderBy = "desc";
+			}
+
+			ViewBag.addressSearch = addressSearch;
+			ViewData["orderBy"] = addressSearch.OrderBy;
+
+				return View(lst.ToList());
 		}
 	}
 }

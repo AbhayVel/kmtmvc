@@ -65,3 +65,4 @@ WebCore/WebApiCore/bin/Debug/netcoreapp3.1/WebApiCore.dll
 WebCore/.vs/WebCore/v16/.suo
 *.cache
 *.cache
+*.dll
