@@ -18,6 +18,7 @@ namespace PolicyRegis.Controllers
 			IEnumerable<Address> lst = adService.GetList();
 			lst = addressSearch.GetWhere(lst);
 			lst = addressSearch.GetOrderBy(lst);
+			lst = addressSearch.GetPagination(lst);
 			ViewBag.addressSearch = addressSearch;
 			
 

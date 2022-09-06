@@ -7,6 +7,12 @@ namespace PolicyModels
 {
     public class AddressSearch
     {
+		public int CurrentPage { get; set; } = 1;
+		public int RowPerPage { get; set; } = 5;
+
+		public int RowCount { get; set; }
+
+		public int PageCount{ get; set; }
 		public string ColumnName { get; set; }
 
 		public string OrderBy { get; set; }
@@ -98,7 +104,22 @@ namespace PolicyModels
 		public IEnumerable<Address> GetPagination(IEnumerable<Address> addresses)
 		{
 
-			return addresses;
+			RowCount=addresses.Count();
+
+			PageCount = (int)Math.Ceiling(RowCount / (RowPerPage * 1.0d));  
+
+			if(PageCount < CurrentPage)
+			{
+				CurrentPage = 1;
+			}
+
+			int skip = (CurrentPage - 1) * RowPerPage;
+
+
+			/*
+			 * skip , take 
+			 */
+			return addresses.Skip(skip).Take(RowPerPage);
 		}
 
 	}

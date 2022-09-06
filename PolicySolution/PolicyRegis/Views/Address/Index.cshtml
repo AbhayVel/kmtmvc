@@ -32,6 +32,9 @@
 
         <input type="hidden" name="OrderBy" id="OrderBy" value="@addressSearch.OrderBy" />
         <input type="hidden" name="ColumnName" id="ColumnName" value="@addressSearch.ColumnName" />
+        <input type="hidden" name="CurrentPage" id="CurrentPage" value="@addressSearch.CurrentPage" />
+      
+        
         <button id="btnSubmit" type="submit">Search</button>
     </div>
 
@@ -68,27 +71,60 @@
 </table>
 <nav>
     <ul class="pagination">
-        <li>
-            <a href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li class="active"><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">6</a></li>
-        <li><a href="#">7</a></li>
-        <li>
-            <a href="#" aria-label="Next">
+        @if(addressSearch.CurrentPage==1)   {
+            <li>
+                <a onclick="pageChange(@(addressSearch.CurrentPage))" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        } else {
+            <li>
+                <a onclick="pageChange(@(addressSearch.CurrentPage -1))" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+        
+        @for(int i=1;i<=addressSearch.PageCount;i++){
+            if(i==addressSearch.CurrentPage){
+                <li class="active"><a onclick="pageChange(@i)" href="#">@i</a></li>
+            }    else {
+                <li><a onclick="pageChange(@i)" href="#">@i</a></li>
+            }
+           
+        }
+        
+        
+        @if(addressSearch.CurrentPage==addressSearch.PageCount)    {
+            <li>
+            <a onclick="pageChange(@addressSearch.CurrentPage)" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
             </a>
         </li>
+        } else {
+            <li>
+                <a onclick="pageChange(@(addressSearch.CurrentPage +1))" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+       
     </ul>
 </nav>
 
 <script>
+
+    function pageChange(currentPage){
+        event.preventDefault();       
+       var cp= $("#CurrentPage").val();
+                   debugger;
+        if (cp == currentPage){
+            return;
+        }
+
+        $("#CurrentPage").val(currentPage);
+        $("#btnSubmit").click();
+    }
 
     function sortData(columnName){
         event.preventDefault();
