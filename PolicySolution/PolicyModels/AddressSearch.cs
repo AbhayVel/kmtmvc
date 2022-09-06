@@ -95,5 +95,11 @@ namespace PolicyModels
 		}
 
 
+		public IEnumerable<Address> GetPagination(IEnumerable<Address> addresses)
+		{
+
+			return addresses;
+		}
+
 	}
 }

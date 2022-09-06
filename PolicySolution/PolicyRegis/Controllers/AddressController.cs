@@ -18,17 +18,8 @@ namespace PolicyRegis.Controllers
 			IEnumerable<Address> lst = adService.GetList();
 			lst = addressSearch.GetWhere(lst);
 			lst = addressSearch.GetOrderBy(lst);
-
-			if ("desc".Equals(addressSearch.OrderBy, StringComparison.OrdinalIgnoreCase))
-			{
-				addressSearch.OrderBy = "asc";
-			}	else
-			{
-				addressSearch.OrderBy = "desc";
-			}
-
 			ViewBag.addressSearch = addressSearch;
-			ViewData["orderBy"] = addressSearch.OrderBy;
+			
 
 				return View(lst.ToList());
 		}
