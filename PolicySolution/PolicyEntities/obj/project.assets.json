@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\pushpendram\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+      "projectUniqueName": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
       "projectName": "PolicyEntities",
-      "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+      "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+      "packagesPath": "C:\\Users\\pushpendram\\.nuget\\packages\\",
+      "outputPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pushpendram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,7 +28,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://packagesource": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -68,5 +65,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://packagesource'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
