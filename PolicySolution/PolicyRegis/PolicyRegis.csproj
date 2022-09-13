@@ -18,4 +18,8 @@
     <ProjectReference Include="..\PolicyUtility\PolicyUtility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\demo\" />
+  </ItemGroup>
+
 </Project>
