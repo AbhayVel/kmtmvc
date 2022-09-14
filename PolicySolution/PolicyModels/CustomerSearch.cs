@@ -9,17 +9,13 @@ namespace PolicyModels
     {
         public int CurrentPage { get; set; } = 1;
         public int RowPerPage { get; set; } = 5;
-
         public int RowCount { get; set; }
-
         public int PageCount { get; set; }
         public string ColumnName { get; set; }
         public string OrderBy { get; set; }
         public string RecIDSearch { get; set; }
         public string CustIDSearch { get; set; }
-
         public string FNameSearch { get; set; }
-
         public IEnumerable<CustomerDetails> GetOrderBy(IEnumerable<CustomerDetails> Customers)
         {
             if (ColumnName == null)
