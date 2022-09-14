@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {}
+    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {}
   },
   "projects": {
-    "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "projectName": "PolicyEntities",
-        "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
-        "packagesPath": "C:\\Users\\pushpendram\\.nuget\\packages\\",
-        "outputPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pushpendram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

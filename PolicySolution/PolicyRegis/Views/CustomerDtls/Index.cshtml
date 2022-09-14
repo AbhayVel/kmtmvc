@@ -43,10 +43,10 @@
 <table class="w3-table w3-table-all">
     <thead>
         <tr>
-            <th><a onclick="sortData('id')" href="/customerdtls/index?columnName=id&orderBy=@ViewData["orderBy"]"> Id </a></th>
-            <th><a onclick="sortData('CustID')" href="/customerdtls/index?columnName=id&orderBy=@ViewData["orderBy"]"> Customer ID </a></th>
-            <th><a onclick="sortData('Fname')" href="/customerdtls/index?columnName=id&orderBy=@ViewData["orderBy"]"> First Name </a></th>
-            <th> Middle Name</th>
+            <th><a onclick="sortData('id')" href="/customerdtls/index?columnName=RecID&orderBy=@ViewData["orderBy"]"> Id </a></th>
+            <th><a onclick="sortData('CustID')" href="/customerdtls/index?columnName=CustID&orderBy=@ViewData["orderBy"]"> Customer ID </a></th>
+            <th><a onclick="sortData('Fname')" href="/customerdtls/index?columnName=FName&orderBy=@ViewData["orderBy"]"> First Name </a></th>
+            <th><a onclick="sortData('Mname')" href="/customerdtls/index?columnName=Mname&orderBy=@ViewData["orderBy"]"> Middle Name </a></th>
             <th> Last Name </th>
             <th> DOB </th>
             <th> Mobile No. </th>
@@ -163,9 +163,10 @@
         $("#CurrentPage").val(currentPage);
         $("#btnSubmit").click();
     }
-
+    //JS function to sort data
     function sortData(columnName) {
-        event.preventDefault();
+        event.preventDefault();     //cancels the event if it is cancelable, 
+                                    //meaning that the default action that belongs to the event will not occur.
         var orderBy = $("#OrderBy").val();
 
         if (orderBy == 'desc') {
