@@ -1,0 +1,145 @@
+﻿@model List<Payment>
+@using PolicyModels;
+
+@{
+    PymntDtlsSearch pymntDtlsSearch = ViewBag.pymntDtlsSearch as PymntDtlsSearch;
+}
+
+<form action="/Payment/index" method="post">
+
+    <div>
+        <div >
+            <label for="id">
+                Id
+            </label>
+            <input type="text" name="RecIDSearch" value="@pymntDtlsSearch.RecIDSearch" />
+
+        </div>
+        <div>
+            <label for="id">
+                Id
+            </label>
+            <input type="text" name="CustomerIDSearch" value="@pymntDtlsSearch.CustomerIDSearch" />
+
+        </div>
+        <div>
+            <label for="id">
+                Id
+            </label>
+            <input type="text" name="CustomerNameSearch" value="@pymntDtlsSearch.CustomerNameSearch" />
+
+        </div>
+
+        <input type="hidden" name="OrderBy" id="OrderBy" value="@pymntDtlsSearch.OrderBy" />
+        <input type="hidden" name="ColumnName" id="ColumnName" value="@pymntDtlsSearch.ColumnName" />
+        <input type="hidden" name="CurrentPage" id="CurrentPage" value="@pymntDtlsSearch.CurrentPage" />
+      
+        
+        <button id="btnSubmit" type="submit">Search</button>
+    </div>
+
+
+</form>
+
+<table class="w3-table w3-table-all">
+    <thead>
+        <tr>
+            <th> <a onclick="sortData('id')" href="/Payment/index?columnName=id&orderBy=@ViewData["orderBy"]">Id</a> </th>
+            <th><a onclick="sortData('CustomerID')" href="/Payment/index?columnName=CustomerID&orderBy=@ViewData["orderBy"]">Customer Id</a></th>
+            <th> <a onclick="sortData('CustomerName')" href="/Payment/index?columnName=CustomerName&orderBy=@ViewData["orderBy"]">Customer</a></th>
+            <th> CreatedBy</th>
+            <th> UpdatedBy</th>
+            <th> Amount</th>
+        </tr>
+    </thead>
+
+     <tbody>
+
+        @foreach(var item in Model){
+            <tr>
+            <td> @item.RecID</td>
+            <td>  @item.CustID</td>
+            <td> @item.FName</td>
+             <td>
+                 @(item.CreatedBy + "On" + item.CreatedDt)    
+            </td>
+                <td> @item.UpdatedBy</td>
+                <td> @item.Amount</td>
+              </tr>
+        }         
+    </tbody>
+</table>
+<nav>
+    <ul class="pagination">
+        @if(pymntDtlsSearch.CurrentPage==1)   {
+            <li>
+                <a onclick="pageChange(@(pymntDtlsSearch.CurrentPage))" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        } else {
+            <li>
+                <a onclick="pageChange(@(pymntDtlsSearch.CurrentPage -1))" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+        
+        @for(int i=1;i<=pymntDtlsSearch.PageCount;i++){
+            if(i==pymntDtlsSearch.CurrentPage){
+                <li class="active"><a onclick="pageChange(@i)" href="#">@i</a></li>
+            }    else {
+                <li><a onclick="pageChange(@i)" href="#">@i</a></li>
+            }
+           
+        }
+        
+        
+        @if(pymntDtlsSearch.CurrentPage==pymntDtlsSearch.PageCount)    {
+            <li>
+            <a onclick="pageChange(@pymntDtlsSearch.CurrentPage)" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+        } else {
+            <li>
+                <a onclick="pageChange(@(pymntDtlsSearch.CurrentPage +1))" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+       
+    </ul>
+</nav>
+
+<script>
+
+    function pageChange(currentPage){
+        event.preventDefault();       
+       var cp= $("#CurrentPage").val();
+                   debugger;
+        if (cp == currentPage){
+            return;
+        }
+
+        $("#CurrentPage").val(currentPage);
+        $("#btnSubmit").click();
+    }
+
+    function sortData(columnName){
+        event.preventDefault();
+         var orderBy= $("#OrderBy").val();
+
+         if(orderBy=='desc'){
+            orderBy = 'asc'
+         }   else {
+            orderBy = 'desc'
+         }
+
+        $("#OrderBy").val(orderBy)
+        $("#ColumnName").val(columnName)
+
+        $("#btnSubmit").click();
+    }
+
+</script>
