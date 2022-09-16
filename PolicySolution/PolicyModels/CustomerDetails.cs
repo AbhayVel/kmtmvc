@@ -28,5 +28,5 @@ namespace PolicyModels
 		public string UpdatedBy { get; set; }
 		public string UpdatedDt { get; set; }
 		public string Status { get; set; }
-	}
+    }
 }
