@@ -19,6 +19,7 @@
 # dependencies
 /node_modules
 /debug
+*.dll
 
 # profiling files
 chrome-profiler-events*.json
