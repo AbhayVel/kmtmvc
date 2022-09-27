@@ -115,7 +115,7 @@ namespace PolicyService
                     RecID = 5,
                     CustID = "Cust1",
                     FName = "Sarthak",
-                    Mname = "Sandeep",
+                    Mname = "aandeep",
                     Lname = "Thikekar",
                     DOB = "02-10-2001",
                     MobNo = "9769126960",
