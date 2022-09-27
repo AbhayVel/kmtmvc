@@ -1,0 +1,41 @@
+﻿@model PolicyModels.CustomerDetails
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form action="/customerdtls/index" method="post">
+    <div>
+        <div>
+            <label for="id">
+                Rec Id
+            </label>
+            <input type="text" name="RecID" value="" />
+
+        </div>
+        <div>
+            <label for="id">
+                Customer Id
+            </label>
+            <input type="text" name="CustID" value="" />
+
+        </div>
+        <div>
+            <label for="id">
+                Fname
+            </label>
+            <input type="text" name="FName" value="" />
+
+        </div>
+        <div>
+            <label for="id">
+                Lname
+            </label>
+            <input type="text" name="Lname" value="" />
+        </div>
+        <button id="btnSubmit" type="submit">Search</button>&nbsp;&nbsp;
+        <button id="btnAdd" type="submit" formaction="/customerDtls/Add" formmethod="get">Add</button>
+    </div>
+
+
+</form>
