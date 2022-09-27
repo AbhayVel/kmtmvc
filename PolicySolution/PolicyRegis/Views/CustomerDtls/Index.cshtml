@@ -1,14 +1,52 @@
 ﻿@model List<CustomerDetails>
 @using PolicyModels;
 
+@{
+    CustomerSearch customerSearch = ViewBag.customerSearch as CustomerSearch;
+}
+
+<form action="/customerdtls/index" method="post">
+    <div>
+        <div>
+            <label for="id">
+                Rec Id
+            </label>
+            <input type="text" name="RecIDSearch" value="@customerSearch.RecIDSearch" />
+
+        </div>
+        <div>
+            <label for="id">
+               Customer Id
+            </label>
+            <input type="text" name="CustomerIDSearch" value="@customerSearch.CustIDSearch" />
+
+        </div>
+        <div>
+            <label for="id">
+                Fname
+            </label>
+            <input type="text" name="FNameSearch" value="@customerSearch.FNameSearch" />
+
+        </div>
+
+        <input type="hidden" name="OrderBy" id="OrderBy" value="@customerSearch.OrderBy" />
+        <input type="hidden" name="ColumnName" id="ColumnName" value="@customerSearch.ColumnName" />
+        <input type="hidden" name="CurrentPage" id="CurrentPage" value="@customerSearch.CurrentPage" />
+
+
+        <button id="btnSubmit" type="submit">Search</button>
+    </div>
+
+
+</form>
 
 <table class="w3-table w3-table-all">
     <thead>
         <tr>
-            <th> Id</th>
-            <th> Customer ID </th>
-            <th> First Name </th>
-            <th> Middle Name</th>
+            <th><a onclick="sortData('id')" href="/customerdtls/index?columnName=RecID&orderBy=@ViewData["orderBy"]"> Id </a></th>
+            <th><a onclick="sortData('CustID')" href="/customerdtls/index?columnName=CustID&orderBy=@ViewData["orderBy"]"> Customer ID </a></th>
+            <th><a onclick="sortData('Fname')" href="/customerdtls/index?columnName=FName&orderBy=@ViewData["orderBy"]"> First Name </a></th>
+            <th><a onclick="sortData('Mname')" href="/customerdtls/index?columnName=Mname&orderBy=@ViewData["orderBy"]"> Middle Name </a></th>
             <th> Last Name </th>
             <th> DOB </th>
             <th> Mobile No. </th>
@@ -59,3 +97,88 @@
         }
     </tbody>
 </table>
+<nav>
+    <ul class="pagination">
+        @if (customerSearch.CurrentPage == 1)
+        {
+            <li>
+                <a onclick="pageChange(@(customerSearch.CurrentPage))" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+        else
+        {
+            <li>
+                <a onclick="pageChange(@(customerSearch.CurrentPage -1))" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+
+        @for (int i = 1; i <= customerSearch.PageCount; i++)
+        {
+            if (i == customerSearch.CurrentPage)
+            {
+                <li class="active"><a onclick="pageChange(@i)" href="#">@i</a></li>
+            }
+            else
+            {
+                <li><a onclick="pageChange(@i)" href="#">@i</a></li>
+            }
+
+        }
+
+
+        @if (customerSearch.CurrentPage == customerSearch.PageCount)
+        {
+            <li>
+                <a onclick="pageChange(@customerSearch.CurrentPage)" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+        else
+        {
+            <li>
+                <a onclick="pageChange(@(customerSearch.CurrentPage +1))" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+
+    </ul>
+</nav>
+
+<script>
+
+    function pageChange(currentPage) {
+        event.preventDefault();
+        var cp = $("#CurrentPage").val();
+        debugger;
+        if (cp == currentPage) {
+            return;
+        }
+
+        $("#CurrentPage").val(currentPage);
+        $("#btnSubmit").click();
+    }
+    //JS function to sort data
+    function sortData(columnName) {
+        event.preventDefault();     //cancels the event if it is cancelable, 
+                                    //meaning that the default action that belongs to the event will not occur.
+        var orderBy = $("#OrderBy").val();
+
+        if (orderBy == 'desc') {
+            orderBy = 'asc'
+        } else {
+            orderBy = 'desc'
+        }
+
+        $("#OrderBy").val(orderBy)
+        $("#ColumnName").val(columnName)
+
+        $("#btnSubmit").click();
+    }
+
+</script>

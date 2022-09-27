@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+      "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
       "projectName": "PolicyEntities",
-      "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+      "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+      "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+      "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

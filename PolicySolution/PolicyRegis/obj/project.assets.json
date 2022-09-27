@@ -837,23 +837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AjayV\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+      "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
       "projectName": "PolicyRegis",
-      "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
-      "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
-      "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+      "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+      "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+      "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\AjayV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -867,23 +863,23 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
             },
-            "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
-              "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
             }
           }
         }

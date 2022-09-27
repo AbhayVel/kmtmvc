@@ -20,9 +20,7 @@ namespace PolicyRegis.Controllers
 			lst = addressSearch.GetOrderBy(lst);
 			lst = addressSearch.GetPagination(lst);
 			ViewBag.addressSearch = addressSearch;
-			
-
-				return View(lst.ToList());
+			return View(lst.ToList());
 		}
 	}
 }
