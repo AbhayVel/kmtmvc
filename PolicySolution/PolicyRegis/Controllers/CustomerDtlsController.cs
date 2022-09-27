@@ -21,5 +21,14 @@ namespace PolicyRegis.Controllers
             ViewBag.customerSearch = customerSearch;
             return View(lst.ToList());
         }
+        public IActionResult Add()
+        {
+            CustomerDetails cusdtls = new CustomerDetails();
+            return View(cusdtls);
+        }
+        public IActionResult Save()
+        {
+            return Redirect("CustomerDtls/index");  
+        }
     }
 }
