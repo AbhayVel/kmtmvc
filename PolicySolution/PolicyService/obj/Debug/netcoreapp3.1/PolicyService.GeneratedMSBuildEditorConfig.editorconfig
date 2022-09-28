@@ -1,7 +1,3 @@
 is_global = true
 build_property.RootNamespace = PolicyService
-<<<<<<< HEAD
-build_property.ProjectDir = D:\SarthakMVC\kmtmvc\PolicySolution\PolicyService\
-=======
-build_property.ProjectDir = E:\MVCProject\kmtmvc\PolicySolution\PolicyService\
->>>>>>> 9fa915ea13bbc0883633647190a3152a0f6f69c6
+build_property.ProjectDir = E:\RAJNEWMVC\kmtmvc\PolicySolution\PolicyService\

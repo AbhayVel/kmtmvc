@@ -4,30 +4,78 @@
 @{
     PolicySearch policySearch = ViewBag.policySearch as PolicySearch;
 }
+<head> 
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+         input[type=text] {
+            width: 10%;
+            padding: 8px 8px;
+            margin: 2px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+            
+        }
+
+            input[type=text]:focus {
+                border: 3px solid #555;
+            }
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<div class="header">
+    <h1>Policy Search </h1>
+
+</div>
 
 <form action="/policydtls/index" method="post">
     <div>
+        <table>
+            <thead> 
         <div>
             <label for="id">
-                Rec Id
-            </label>
-            <input type="text" name="RecIDSearch" value="@policySearch.RecIDSearch" />
+                         Rec id
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="RecIDSearch" value="@policySearch.RecIDSearch" /><br />
 
-        </div>
+                </div>
+                <br />
+            </thead>
+            <thead>
         <div>
             <label for="id">
-                Customer Id
-            </label>
-            <input type="text" name="CustomerIDSearch" value="@policySearch.CustIDSearch" />
+                        Customer Id
+                    </label>
+            <input type="text" name="CustomerIDSearch" value="@policySearch.CustIDSearch" /><br />
 
-        </div>
+                </div>
+                <br />
+            </thead>
+            <thead>
         <div>
             <label for="id">
-                Policyname
+                          Policyname 
             </label>
-            <input type="text" name="Policyname" value="@policySearch.Policyname" />
+            <input type="text" name="Policyname" value="@policySearch.Policyname" /><br />
 
-        </div>
+        </div><br />
+            </thead>
+        </table>
 
         <input type="hidden" name="OrderBy" id="OrderBy" value="@policySearch.OrderBy" />
         <input type="hidden" name="ColumnName" id="ColumnName" value="@policySearch.ColumnName" />
@@ -35,10 +83,12 @@
 
 
         <button id="btnSubmit" type="submit">Search</button>
+        <button id="btnpage1" class="btn btn-outline-success" type="submit" formaction="/PolicyDtls/page1" formmethod="get">page1</button>
     </div>
 
 
 </form>
+
 
 <table class="w3-table w3-table-all">
     <thead>
@@ -150,3 +200,16 @@
     }
 
 </script>
+<div class="footer">
+    <footer>
+        <div class="spinner-border text-muted"></div>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-warning"></div>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-dark"></div>
+        <div class="spinner-border text-light"></div>
+    </footer>
+</div>

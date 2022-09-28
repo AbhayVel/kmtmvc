@@ -16,10 +16,8 @@ namespace PolicyModels
         public string RecIDSearch { get; set; }
         public string CustIDSearch { get; set; }
         public string FNameSearch { get; set; }
-<<<<<<< HEAD
-=======
         public string LnameSearch { get; set; }
->>>>>>> SarthakNewBranch
+
         public IEnumerable<CustomerDetails> GetOrderBy(IEnumerable<CustomerDetails> Customers)
         {
             if (ColumnName == null)
