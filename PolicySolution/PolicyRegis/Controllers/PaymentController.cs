@@ -20,5 +20,11 @@ namespace PolicyRegis.Controllers
 
 			return View(lst.ToList());
 		}
+
+		public IActionResult Add()
+		{
+			return View();
+		}
+
 	}
 }

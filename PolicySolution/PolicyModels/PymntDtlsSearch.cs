@@ -116,7 +116,6 @@ namespace PolicyModels
 			int skip = (CurrentPage - 1) * RowPerPage;
 
 
-			
 			return payments.Skip(skip).Take(RowPerPage);
 		}
 

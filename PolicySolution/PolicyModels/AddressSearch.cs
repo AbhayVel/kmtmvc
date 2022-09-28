@@ -14,7 +14,6 @@ namespace PolicyModels
 
 		public int PageCount{ get; set; }
 		public string ColumnName { get; set; }
-
 		public string OrderBy { get; set; }
 		public string RecIDSearch { get; set; }
 		public string CustomerIDSearch { get; set; }
@@ -114,13 +113,10 @@ namespace PolicyModels
 			}
 
 			int skip = (CurrentPage - 1) * RowPerPage;
-
-
 			/*
 			 * skip , take 
 			 */
 			return addresses.Skip(skip).Take(RowPerPage);
 		}
-
 	}
 }
