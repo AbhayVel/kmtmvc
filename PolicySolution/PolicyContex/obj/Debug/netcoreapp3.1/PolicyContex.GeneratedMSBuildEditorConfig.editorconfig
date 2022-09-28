@@ -1,7 +1,3 @@
 is_global = true
 build_property.RootNamespace = PolicyContex
-<<<<<<< HEAD
 build_property.ProjectDir = D:\SarthakMVC\kmtmvc\PolicySolution\PolicyContex\
-=======
-build_property.ProjectDir = E:\MVCProject\kmtmvc\PolicySolution\PolicyContex\
->>>>>>> 9fa915ea13bbc0883633647190a3152a0f6f69c6
