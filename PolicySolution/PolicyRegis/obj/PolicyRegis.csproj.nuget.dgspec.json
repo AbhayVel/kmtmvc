@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
   },
   "projects": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "projectName": "PolicyContex",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +63,21 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "projectName": "PolicyEntities",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,17 +122,21 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
         "projectName": "PolicyModels",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -169,17 +181,21 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
         "projectName": "PolicyRegis",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,23 +209,23 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
               }
             }
           }
@@ -240,6 +256,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.28, 3.1.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -252,17 +274,21 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
         "projectName": "PolicyRepository",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -307,17 +333,21 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
         "projectName": "PolicyService",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -331,8 +361,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
               }
             }
           }
@@ -366,17 +396,21 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+    "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "projectUniqueName": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
         "projectName": "PolicyUtility",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
-        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
+        "projectPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "packagesPath": "C:\\Users\\F1B7T02\\.nuget\\packages\\",
+        "outputPath": "D:\\IRishi\\Git\\mvc\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\F1B7T02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
