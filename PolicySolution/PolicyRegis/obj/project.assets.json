@@ -837,19 +837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\": {}
+    "C:\\Users\\pushpendram\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+      "projectUniqueName": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
       "projectName": "PolicyRegis",
-      "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
-      "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-      "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+      "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+      "packagesPath": "C:\\Users\\pushpendram\\.nuget\\packages\\",
+      "outputPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pushpendram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -857,29 +857,30 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://packagesource": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
-              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+            "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+              "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
             },
-            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
-              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+            "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+              "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
             },
-            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+            "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+              "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
             },
-            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
-              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+            "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+              "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
             },
-            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
-              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+            "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+              "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
             },
-            "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
-              "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+            "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+              "projectPath": "D:\\SarthakMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
             }
           }
         }
@@ -921,5 +922,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://packagesource'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
