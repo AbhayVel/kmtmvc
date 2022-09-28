@@ -16,6 +16,9 @@ namespace PolicyModels
         public string RecIDSearch { get; set; }
         public string CustIDSearch { get; set; }
         public string FNameSearch { get; set; }
+
+
+
         public string LnameSearch { get; set; }
 
         public IEnumerable<CustomerDetails> GetOrderBy(IEnumerable<CustomerDetails> Customers)

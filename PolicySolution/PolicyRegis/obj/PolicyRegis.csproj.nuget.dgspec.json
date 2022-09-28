@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
   },
   "projects": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "projectName": "PolicyContex",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "projectName": "PolicyEntities",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,14 +114,14 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
         "projectName": "PolicyModels",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,14 +169,14 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
         "projectName": "PolicyRegis",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -193,23 +193,23 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
               },
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
               }
             }
           }
@@ -252,14 +252,14 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
         "projectName": "PolicyRepository",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -307,14 +307,14 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
         "projectName": "PolicyService",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -331,8 +331,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
-                "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
               }
             }
           }
@@ -366,14 +366,14 @@
         }
       }
     },
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+    "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "projectUniqueName": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
         "projectName": "PolicyUtility",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "projectPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
+        "outputPath": "E:\\RAJNEWMVC\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",

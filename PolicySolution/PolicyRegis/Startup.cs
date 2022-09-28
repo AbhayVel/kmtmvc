@@ -50,7 +50,11 @@ namespace PolicyRegis
 			{
 				endpoints.MapControllerRoute(
 					name: "default",
+
 					pattern: "{controller=PolicyDtls}/{action=Index}/{id?}");
+
+					
+
 			});
 		}
 	}
