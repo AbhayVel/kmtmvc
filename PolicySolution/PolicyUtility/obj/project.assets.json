@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+      "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
       "projectName": "PolicyUtility",
-      "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+      "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
       "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-      "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
+      "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",

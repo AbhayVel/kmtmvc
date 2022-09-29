@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {}
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {}
   },
   "projects": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "projectName": "PolicyContex",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
