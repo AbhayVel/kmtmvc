@@ -3,6 +3,8 @@ using PolicyModels;
 using System.Collections.Generic;
 using System.Linq;
 using PolicyService;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace PolicyRegis.Controllers
 {
@@ -21,9 +23,27 @@ namespace PolicyRegis.Controllers
 			return View(lst.ToList());
 		}
 
+
 		public IActionResult Add()
 		{
-			return View();
+			var pymnt =new	Payment();	
+			return View(pymnt);
+		}
+		[HttpPost]
+		public async Task<IActionResult> Save(Payment payment)
+		{
+			Payment pymntry =new Payment();
+			await TryUpdateModelAsync(pymntry);
+			if (ModelState.IsValid)
+			{
+				return Redirect("Payment/Index");
+			}
+			else
+			{
+				return Redirect("Add");
+			}
+
+			
 		}
 
 
