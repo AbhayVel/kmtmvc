@@ -2,36 +2,40 @@
 @model CustomerDetails
 @{
 }
-<form action="/customerdtls/index" method="post">
-    <div>
-        <div>
-            <label for="id">
-                Rec Id
-            </label>
-            <input type="text" name="RecID" value="" />
-
+<form action="/customerdtls/index" method="post" class="form-group">
+    <div class="container w3-margin-top">
+        <div class="row form-group">
+            <div class="col-sm-4">
+                <label for="id">
+                    Customer ID
+                </label>
+                <input type="text" name="CustID" value="@Model.CustID" class="form-control" readonly/>
+                @Html.ValidationMessage("CustID")
+            </div>
         </div>
-        <div>
-            <label for="id">
-                Customer Id
-            </label>
-            <input type="text" name="CustID" value="" class="form-control" />
-
+        <div class="row">
+            <div class="col-sm-4">
+                <label for="id">
+                    Customer ID
+                </label>
+                <input type="text" name="FName" value="@Model.FName" class="form-control" />
+                @Html.ValidationMessage("FName")
+            </div>
+            <div class="col-sm-4">
+                <label for="id">
+                    Customer ID
+                </label>
+                <input type="text" name="Mname" value="@Model.Mname" class="form-control" />
+                @Html.ValidationMessage("Mname")
+            </div>
+            <div class="col-sm-4">
+                <label for="id">
+                    Customer ID
+                </label>
+                <input type="text" name="Lname" value="@Model.Lname" class="form-control" />
+                @Html.ValidationMessage("Lname")
+            </div>
         </div>
-        <div>
-            <label for="id">
-                Fname
-            </label>
-            <input type="text" name="FName" value="" class="form-control"/>
-
-        </div>
-        <div>
-            <label for="id">
-                Lname
-            </label>
-            <input type="text" name="Lname" value="" class="form-control" />
-        </div>
-        <button id="btnSave" type="submit" formaction="/customerdtls/Add" formmethod="post" class="btn btn-success">Save</button>&nbsp;&nbsp;
-        <button id="btnAdd" type="submit" formaction="/customerDtls/Add" formmethod="get" class="btn btn-primary">Add</button>
+        <button id="btnSave" type="submit" class="btn btn-success">Save</button>&nbsp;&nbsp;
     </div>
 </form>

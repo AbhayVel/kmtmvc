@@ -4,6 +4,7 @@ using PolicyService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace PolicyRegis.Controllers
 {
@@ -26,9 +27,20 @@ namespace PolicyRegis.Controllers
             CustomerDetails cusdtls = new CustomerDetails();
             return View(cusdtls);
         }
-        public IActionResult Save()
+
+        [HttpPost]
+        public async Task <IActionResult> Save(CustomerDetails custdt)
         {
-            return Redirect("CustomerDtls/index");  
+            CustomerDetails custdtls = new CustomerDetails();
+            await TryUpdateModelAsync(custdtls);
+            if(ModelState.IsValid)
+            {
+                return Redirect("/CustomerDtls/index");
+            }
+            else
+            {
+                return View("Add", custdtls);
+            }
         }
     }
 }
