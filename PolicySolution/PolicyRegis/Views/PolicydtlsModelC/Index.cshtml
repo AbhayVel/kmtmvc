@@ -1,0 +1,75 @@
+﻿
+@using PolicyModels;
+<head>
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Policy Details Form  </th>
+           
+           
+        </tr>
+        <tr>
+            <td> Policy Holder name : </td>
+            <td>@Html.TextBox("PolicyHoldername")</td>
+           
+        </tr>
+        <tr>
+            <td>Rec-Id :</td>
+            <td>@Html.TextBox("Recid")</td>
+           
+        </tr>
+        <tr>
+            <td>Checkbox </td>
+            <td>
+            </td>
+           
+        </tr>
+        <tr>
+            <td>DOB : </td>
+            <td>Roland Mendel</td>
+
+        </tr>
+        <tr>
+            <td>Gender :</td>
+            <td>
+                Male:   @Html.RadioButton("Gender","Male")
+                Female: @Html.RadioButton("Gender","Female")
+            </td>
+            
+        </tr>
+        <tr>
+            <td>Policy Type </td>
+            <td></td>
+           
+        </tr>
+        <tr>
+            <td>Policy Catagory :</td>
+            <td>
+                Motor : @Html.CheckBox("PolicyCatagory", true)
+                Travel  : @Html.CheckBox("PolicyCatagory", true)
+                Rest : @Html.CheckBox("PolicyCatagory", true)
+                Health: @Html.CheckBox("PolicyCatagory", true)
+            </td>
+            
+        </tr>
+    </table>
+
+</body>
