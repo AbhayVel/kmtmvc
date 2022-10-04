@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {}
+  },
+  "projects": {
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "projectName": "PolicyContex",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,6 +76,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -70,6 +85,16 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectName": "PolicyEntities",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -120,6 +145,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -128,6 +154,16 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "projectName": "PolicyModels",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -178,6 +214,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -186,6 +223,16 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "projectName": "PolicyRegis",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRegis\\PolicyRegis.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRegis\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -205,6 +252,7 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
                 "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
               },
@@ -222,6 +270,25 @@
               },
               "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
                 "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+=======
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyContex\\PolicyContex.csproj"
+              },
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj"
+              },
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+              },
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj"
+              },
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj"
+              },
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj"
+>>>>>>> RajMVCNEWB
               }
             }
           }
@@ -239,6 +306,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.28, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -264,6 +335,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -272,6 +344,16 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "projectName": "PolicyRepository",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRepository\\PolicyRepository.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyRepository\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -322,6 +404,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -330,6 +413,16 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "projectName": "PolicyService",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyService\\PolicyService.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyService\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -349,8 +442,13 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
                 "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+=======
+              "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj": {
+                "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyModels\\PolicyModels.csproj"
+>>>>>>> RajMVCNEWB
               }
             }
           }
@@ -384,6 +482,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -392,6 +491,16 @@
         "projectPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
         "packagesPath": "C:\\Users\\AjayV\\.nuget\\packages\\",
         "outputPath": "D:\\abhay\\Kmi89\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
+=======
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "projectName": "PolicyUtility",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\PolicyUtility.csproj",
+        "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyUtility\\obj\\",
+>>>>>>> RajMVCNEWB
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = PolicyService
+<<<<<<< HEAD
 build_property.ProjectDir = D:\abhay\Kmi89\kmtmvc\PolicySolution\PolicyService\
+=======
+build_property.ProjectDir = D:\RajMVCNEW\kmtmvc\PolicySolution\PolicyService\
+>>>>>>> RajMVCNEWB

@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = PolicyContex
+<<<<<<< HEAD
 build_property.ProjectDir = D:\abhay\Kmi89\kmtmvc\PolicySolution\PolicyContex\
+=======
+build_property.ProjectDir = D:\RajMVCNEW\kmtmvc\PolicySolution\PolicyContex\
+>>>>>>> RajMVCNEWB

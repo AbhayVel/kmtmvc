@@ -17,6 +17,8 @@ namespace PolicyModels
 		[Required]
 		[MinLength(3)]
 		public string CustID { get; set; }
+		[Required]
+		[RegularExpression("[A-Z a-z ]{3,10}")]
 		public string Policyname{ get; set; }
 		public string PolicyStatus { get; set; }
 		

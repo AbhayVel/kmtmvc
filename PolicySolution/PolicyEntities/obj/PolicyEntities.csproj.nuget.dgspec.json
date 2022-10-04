@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {}
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {}
   },
   "projects": {
-    "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
+    "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectUniqueName": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "projectName": "PolicyEntities",
-        "projectPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
+        "projectPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\PolicyEntities.csproj",
         "packagesPath": "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages\\",
-        "outputPath": "E:\\MVCProject\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
+        "outputPath": "D:\\RajMVCNEW\\kmtmvc\\PolicySolution\\PolicyEntities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KMI-G6D2Y32\\AppData\\Roaming\\NuGet\\NuGet.Config",
