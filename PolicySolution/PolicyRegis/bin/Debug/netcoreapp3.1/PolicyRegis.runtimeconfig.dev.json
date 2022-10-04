@@ -1,8 +1,14 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\KMI-G6D2Y32\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\KMI-G6D2Y32\\.nuget\\packages"
+=======
+      "C:\\Users\\AjayV\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AjayV\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+>>>>>>> refs/remotes/origin/main
     ]
   }
 }
